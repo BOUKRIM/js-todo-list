@@ -147,7 +147,7 @@ const retrieve = (term) =>{
       a = li[i].getElementsByTagName("span")[0];
       txtValue = a.textContent || a.innerText;
       if(txtValue.toUpperCase().indexOf(filter)> -1){
-         li[i].style.dispmay = "";
+         li[i].style.display = "";
       }else{
          li[i].style.setProperty('display' , 'none' , 'import');
       }
